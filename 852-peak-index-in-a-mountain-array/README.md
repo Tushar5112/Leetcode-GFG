@@ -15,21 +15,21 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> arr = [0,1,0]
+<pre><strong>Input:</strong> arr = [0,1,0]
 <strong>Output:</strong> 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> arr = [0,2,1,0]
+<pre><strong>Input:</strong> arr = [0,2,1,0]
 <strong>Output:</strong> 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> arr = [0,10,5,2]
+<pre><strong>Input:</strong> arr = [0,10,5,2]
 <strong>Output:</strong> 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
