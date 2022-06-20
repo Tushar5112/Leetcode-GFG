@@ -17,21 +17,21 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> n = 10, pick = 6
+<pre><strong>Input:</strong> n = 10, pick = 6
 <strong>Output:</strong> 6
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> n = 1, pick = 1
+<pre><strong>Input:</strong> n = 1, pick = 1
 <strong>Output:</strong> 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> n = 2, pick = 1
+<pre><strong>Input:</strong> n = 2, pick = 1
 <strong>Output:</strong> 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
