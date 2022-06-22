@@ -8,24 +8,25 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+//Recursive
 class Solution {
 public:
+    ListNode* reverse(ListNode *head)
+    {
+        if(head->next==NULL)
+        {
+            return head;
+        }
+        ListNode* reversehead=reverse(head->next);
+        head->next->next=head;
+        head->next=NULL;
+        return reversehead;
+    }
     ListNode* reverseList(ListNode* head) {
         if(!head)
         {
             return NULL;
         }
-        ListNode *previous=NULL,*current=head,*n=current->next;
-        while(current!=NULL)        
-        {
-            current->next=previous;
-            previous=current;
-            current=n;
-            if(n!=NULL)
-            {
-                n=n->next;
-            }
-        }
-        return previous;
+        return reverse(head);
     }
 };
