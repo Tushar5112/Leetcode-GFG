@@ -21,11 +21,19 @@ int main() {
 
 
 int transitionPoint(int arr[], int n) {
-    // code here
-    for(int i=0;i<n;i++)
-   {
-       if(arr[i]==1)
-       return i;
-   }
-   return -1;
+    int l=0,r=n-1;
+       if(arr[0]==1){
+           return 0;
+       }
+       while(l<=r){
+           int mid=(l+r)/2;
+           if(arr[mid]==1 && arr[mid-1]!=1){
+               return mid;
+           }else if(arr[mid]==0){
+               l=mid+1;
+           }else{
+               r=mid-1;
+           }
+       }
+       return -1;
 }
