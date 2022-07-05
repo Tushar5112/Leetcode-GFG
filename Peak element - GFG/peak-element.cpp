@@ -17,7 +17,7 @@ class Solution
         int l=0,h=n-1,mid;
         while(l<=h) {
             mid=l+(h-l)/2;
-            if(arr[mid-1]<=arr[mid] && arr[mid+1]<=arr[mid]) {
+            if((mid==0 || arr[mid-1]<=arr[mid]) && (arr[mid+1]<=arr[mid])) {
                 return mid;
             }
             if(arr[mid-1]>arr[mid]) {
