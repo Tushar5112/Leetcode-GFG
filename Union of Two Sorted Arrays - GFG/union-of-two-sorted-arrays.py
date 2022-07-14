@@ -11,8 +11,8 @@ class Solution:
         :param m: size of sorted array b
         :return:  The union of both arrays as a list
         '''
-        a.extend(b)
-        return(sorted(list(set(a))))
+        #a.extend(b)
+        return(sorted(list(set(a+b))))
         # code here 
 
 #{ 
